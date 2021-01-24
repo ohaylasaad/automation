@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20344" started-at="2021-01-24T18:27:47 EET" finished-at="2021-01-24T18:28:07 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20344" started-at="2021-01-24T18:27:47 EET" finished-at="2021-01-24T18:28:07 EET">
+      <class name="booking.automationtask.TestNGBooking">
+        <test-method status="PASS" signature="openURL(java.lang.String, java.lang.String)[pri:0, instance:booking.automationtask.TestNGBooking@1f554b06]" name="openURL" is-config="true" duration-ms="11593" started-at="2021-01-24T18:27:47 EET" finished-at="2021-01-24T18:27:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.booking.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method status="PASS" signature="selectDateAndSearch()[pri:0, instance:booking.automationtask.TestNGBooking@1f554b06]" name="selectDateAndSearch" duration-ms="7352" started-at="2021-01-24T18:27:58 EET" finished-at="2021-01-24T18:28:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateAndSearch -->
+        <test-method status="PASS" signature="getHotelNamepriceandimage()[pri:2, instance:booking.automationtask.TestNGBooking@1f554b06]" name="getHotelNamepriceandimage" duration-ms="673" started-at="2021-01-24T18:28:06 EET" finished-at="2021-01-24T18:28:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelNamepriceandimage -->
+        <test-method status="PASS" signature="closebooking()[pri:0, instance:booking.automationtask.TestNGBooking@1f554b06]" name="closebooking" is-config="true" duration-ms="695" started-at="2021-01-24T18:28:06 EET" finished-at="2021-01-24T18:28:07 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebooking -->
+      </class> <!-- booking.automationtask.TestNGBooking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
